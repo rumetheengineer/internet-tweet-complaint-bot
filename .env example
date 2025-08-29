@@ -1,0 +1,6 @@
+#These are all examples, should be replaced with actual information to run the script
+
+TWITTER_EMAIL = "example@email.com"
+TWITTER_PASS = "passwordforXaccount"
+TWITTER_USER = "handle_on_X"
+ISP_TWITTER_HANDLE = "@myInternetServiceProvider"
