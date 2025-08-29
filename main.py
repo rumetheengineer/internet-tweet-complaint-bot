@@ -49,11 +49,12 @@ class InternetSpeedTwitterBot:
 
     def check_speed(self):
         if self.up <= UPLOAD_SPEED or self.down <= DOWNLOAD_SPEED:
-            self.tweet_complaint()
             print("Internet speed is below the expected threshold.")
+            self.tweet_complaint()
             return False
         else:
             print("Internet speed is acceptable.")
+            self.driver.quit()
             return True
 
     def tweet_complaint(self):
