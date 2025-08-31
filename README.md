@@ -5,4 +5,4 @@ Uses [SpeedTest](https://www.speedtest.net/) to check the speed of the internet 
 
 The Twitter(X) web layout may update so multiple webdriver selectors were used for the tweet box. The thresholds were declared before the class so the values can be changed based on the expected speed of the script runner. My expected speed was 20mbps anything below that and I get noticable lags.
 
-The twitter account to be used and the service provider to be tagged are both declared in the environment file. An environment example has beeen added for clarity
+The twitter account to be used and the service provider to be tagged are both declared in the environment file. An environment example has beeen added for clarity. 
